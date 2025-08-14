@@ -19,3 +19,9 @@ dev = [
     "flake8>=7.3.0",
     "ruff>=0.12.8",
 ]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+select = ["E", "F", "I", "UP", "A"]
+ignore = ["D203"]
